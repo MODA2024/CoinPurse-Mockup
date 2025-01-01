@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canva-Ready Dashboard Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .dashboard {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            height: 100vh;
+        }
+        .sidebar {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+        }
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #444;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .sidebar ul li:hover {
+            background-color: #555;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .header {
+            background-color: #2e3b4e;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .content-section {
+            margin-top: 20px;
+        }
+        .content-section h3 {
+            color: #333;
+        }
+        .button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="sidebar">
+            <h2>Dashboard Sections</h2>
+            <ul>
+                <li>MODI (Investments)</li>
+                <li>MODP (Play)</li>
+                <li>MODS (Stay)</li>
+                <li>MODT (Travel)</li>
+                <li>MODE (Events)</li>
+                <li>MODA (Museum)</li>
+                <li>Retail</li>
+                <li>AIRS Settings</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="header">CoinPurse Dashboard</div>
+            <div class="content-section">
+                <h3>AIRS Integration</h3>
+                <p>Enable geotracking to unlock personalized AR/VR experiences:</p>
+                <button class="button">Enable Geotracking</button>
+            </div>
+            <div class="content-section">
+                <h3>Retail Shopping</h3>
+                <p>Scan QR codes during museum tours or shows to shop instantly.</p>
+                <button class="button">View Shopping Cart</button>
+            </div>
+            <div class="content-section">
+                <h3>Investment Overview</h3>
+                <p>Track your MODG and MODSLV investments here.</p>
+                <button class="button">Go to Investments</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
