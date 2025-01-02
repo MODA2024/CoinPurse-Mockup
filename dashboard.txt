@@ -1,9 +1,10 @@
+corrected_html_content = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canva-Ready Dashboard Template</title>
+    <title>CoinPurse Dashboard</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -72,7 +73,7 @@
 <body>
     <div class="dashboard">
         <div class="sidebar">
-            <h2>Dashboard Sections</h2>
+            <h2>CoinPurse Dashboard</h2>
             <ul>
                 <li>MODI (Investments)</li>
                 <li>MODP (Play)</li>
@@ -85,7 +86,7 @@
             </ul>
         </div>
         <div class="main-content">
-            <div class="header">CoinPurse Dashboard</div>
+            <div class="header">Welcome to CoinPurse</div>
             <div class="content-section">
                 <h3>AIRS Integration</h3>
                 <p>Enable geotracking to unlock personalized AR/VR experiences:</p>
@@ -105,6 +106,10 @@
     </div>
 </body>
 </html>
+"""
 
+# Saving the corrected HTML file
+with open(corrected_html_path, "w") as file:
+    file.write(corrected_html_content)
 
-
+corrected_html_path
